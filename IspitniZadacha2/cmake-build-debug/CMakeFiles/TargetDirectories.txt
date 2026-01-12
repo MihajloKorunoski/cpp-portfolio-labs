@@ -1,0 +1,3 @@
+C:/Users/mihaj/Desktop/Programi/C++ septemvri/IspitniZadacha2/cmake-build-debug/CMakeFiles/IspitniZadacha2.dir
+C:/Users/mihaj/Desktop/Programi/C++ septemvri/IspitniZadacha2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mihaj/Desktop/Programi/C++ septemvri/IspitniZadacha2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

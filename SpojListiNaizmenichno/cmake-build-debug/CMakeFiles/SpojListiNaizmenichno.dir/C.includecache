@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/mihaj/Desktop/Programi/C++ septemvri/SpojListiNaizmenichno/main.c
+stdio.h
+-
+malloc.h
+-
+

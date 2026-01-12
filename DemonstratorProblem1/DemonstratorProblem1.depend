@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1612226035 source:c:\users\mihaj\desktop\programi\c++ septemvri\demonstratorproblem1\main.cpp
+	<iostream>
+	<cstring>
+

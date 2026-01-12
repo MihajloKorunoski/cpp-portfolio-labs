@@ -1,0 +1,3 @@
+C:/Users/mihaj/Desktop/Programi/C++ septemvri/NerekurzivnoIzminuvanjevopreorder/cmake-build-debug/CMakeFiles/NerekurzivnoIzminuvanjevopreorder.dir
+C:/Users/mihaj/Desktop/Programi/C++ septemvri/NerekurzivnoIzminuvanjevopreorder/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mihaj/Desktop/Programi/C++ septemvri/NerekurzivnoIzminuvanjevopreorder/cmake-build-debug/CMakeFiles/rebuild_cache.dir

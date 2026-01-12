@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/mihaj/Desktop/Programi/C++ septemvri/NerekurzivnoIzminuvanjevopreorder/main.c
+stdio.h
+-
+malloc.h
+-
+string.h
+-
+stdlib.h
+-
+
