@@ -1,0 +1,17 @@
+# Visual Studio / build outputs
+.vs/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/bin/
+**/obj/
+
+# Compiled/binary outputs
+*.exe
+*.dll
+*.pdb
+*.obj
+*.ilk
+*.lib
+*.exp
