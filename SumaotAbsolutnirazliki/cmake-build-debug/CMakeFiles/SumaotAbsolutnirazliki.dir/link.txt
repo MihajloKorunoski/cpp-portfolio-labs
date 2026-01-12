@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SumaotAbsolutnirazliki.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\SumaotAbsolutnirazliki.dir/objects.a @CMakeFiles\SumaotAbsolutnirazliki.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\SumaotAbsolutnirazliki.dir/objects.a -Wl,--no-whole-archive  -o SumaotAbsolutnirazliki.exe -Wl,--out-implib,libSumaotAbsolutnirazliki.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SumaotAbsolutnirazliki.dir\linklibs.rsp

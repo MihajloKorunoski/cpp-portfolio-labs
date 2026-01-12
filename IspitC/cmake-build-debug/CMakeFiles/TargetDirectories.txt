@@ -1,3 +1,0 @@
-C:/Users/mihaj/Desktop/Programi/C++ septemvri/IspitC/cmake-build-debug/CMakeFiles/IspitC.dir
-C:/Users/mihaj/Desktop/Programi/C++ septemvri/IspitC/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mihaj/Desktop/Programi/C++ septemvri/IspitC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

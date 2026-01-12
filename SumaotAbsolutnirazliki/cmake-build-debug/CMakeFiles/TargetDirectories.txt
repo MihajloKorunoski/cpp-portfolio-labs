@@ -1,3 +1,0 @@
-C:/Users/mihaj/Desktop/Programi/C++ septemvri/SumaotAbsolutnirazliki/cmake-build-debug/CMakeFiles/SumaotAbsolutnirazliki.dir
-C:/Users/mihaj/Desktop/Programi/C++ septemvri/SumaotAbsolutnirazliki/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mihaj/Desktop/Programi/C++ septemvri/SumaotAbsolutnirazliki/cmake-build-debug/CMakeFiles/rebuild_cache.dir

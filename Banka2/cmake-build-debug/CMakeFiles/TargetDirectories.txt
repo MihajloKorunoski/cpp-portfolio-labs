@@ -1,3 +1,0 @@
-C:/Users/mihaj/Desktop/Programi/C++ septemvri/Banka2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mihaj/Desktop/Programi/C++ septemvri/Banka2/cmake-build-debug/CMakeFiles/Banka2.dir
-C:/Users/mihaj/Desktop/Programi/C++ septemvri/Banka2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
