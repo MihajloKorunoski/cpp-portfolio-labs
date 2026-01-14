@@ -239,6 +239,17 @@
 - strings--movie-list-input
 - strings--movie-pointer-input
 - strings--movie-year-input
+- arrays--recursive-linear-search
+- files--letter-case-ratio
+- files--matrix-diagonal-sum-upper
+- finance--shopping-cart-receipt
+- geometry--collinear-points
+- geometry--coplanar-points-volume
+- geometry--distance-2d-3d
+- geometry--segment-intersection
+- geometry--vector-dot-cross
+- math--complex-equation-operators
+- oop--rent-a-car-fleet
 
 # Multifile
 
