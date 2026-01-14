@@ -250,6 +250,35 @@
 - geometry--vector-dot-cross
 - math--complex-equation-operators
 - oop--rent-a-car-fleet
+- algorithms--shaker-sort
+- arrays--form-minimum-number
+- arrays--insert-delete-element
+- arrays--longest-decreasing-subsequence
+- arrays--odd-even-parity-sort
+- arrays--odd-even-split-sort
+- arrays--shift-by-first-element
+- arrays--split-first-ten
+- data-structures--bst-depth-count
+- data-structures--doubly-list-bubble-sort
+- data-structures--singly-list-insert-order
+- files--matrix-parity-count
+- finance--product-discount-receipt
+- geometry--circle-prism-figures
+- geometry--square-prism-triangle
+- geometry--tetrahedron-from-triangle
+- math--prime-factorization
+- math--search-equation-root
+- oop--book-author-publisher
+- oop--class-student-list
+- oop--company-payroll
+- oop--course-professor-grades
+- oop--message-sender-receiver
+- oop--music-instruments
+- oop--publication-library
+- oop--set-operations
+- oop--shape-ascii-drawing
+- oop--student-course-records
+- oop--vehicle-showroom
 
 # Multifile
 
