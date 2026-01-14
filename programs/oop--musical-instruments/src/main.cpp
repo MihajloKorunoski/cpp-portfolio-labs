@@ -6,7 +6,7 @@ private:
     char message[100];
 public:
     InstrumentTypeAlreadyExists(char *message){
-        strcpy(this->message,message);
+        strcpy_s(this->message, sizeof(this->message), message);
     }
     void print(){
         cout<<message<<endl;
@@ -23,16 +23,16 @@ public:
     MusicalInstrument() {}
     MusicalInstrument(char *ime, char *vid, int cena, int godina,bool vrednost) {
         this->ime=new char[strlen(ime)+1];
-        strcpy(this->ime,ime);
-        strcpy(this->vid,vid);
+        strcpy_s(this->ime, strlen(ime)+1, ime);
+        strcpy_s(this->vid, sizeof(this->vid), vid);
         this->cena=cena;
         this->godina=godina;
         this->vrednost=vrednost;
     }
     MusicalInstrument(const MusicalInstrument &o) {
         this->ime=new char[strlen(o.ime)+1];
-        strcpy(this->ime,o.ime);
-        strcpy(this->vid,o.vid);
+        strcpy_s(this->ime, strlen(o.ime)+1, o.ime);
+        strcpy_s(this->vid, sizeof(this->vid), o.vid);
         this->cena=o.cena;
         this->godina=o.godina;
         this->vrednost=o.vrednost;
@@ -44,8 +44,8 @@ public:
         if(this!=&o) {
             delete[]ime;
             this->ime=new char[strlen(o.ime)+1];
-            strcpy(this->ime,o.ime);
-            strcpy(this->vid,o.vid);
+            strcpy_s(this->ime, strlen(o.ime)+1, o.ime);
+            strcpy_s(this->vid, sizeof(this->vid), o.vid);
             this->cena=o.cena;
             this->godina=o.godina;
             this->vrednost=o.vrednost;
@@ -73,6 +73,8 @@ public:
         ins.cena+=a;
         return ins.cena;
     }
+
+    bool isValuable() const { return vrednost; }
 };
 class Band {
 private:
@@ -82,20 +84,20 @@ private:
 public:
     Band() {}
     Band(char *ime) {
-        strcpy(this->ime,ime);
+        strcpy_s(this->ime, sizeof(this->ime), ime);
         this->instrumenti=new MusicalInstrument[brojinstrumenti];
         this->brojinstrumenti=0;
         this->instrumenti=nullptr;
     }
     Band(const Band &b) {
-        strcpy(this->ime,b.ime);
+        strcpy_s(this->ime, sizeof(this->ime), b.ime);
         this->instrumenti=new MusicalInstrument[b.brojinstrumenti];
         this->brojinstrumenti=0;
         this->instrumenti=nullptr;
     }
     Band &operator =(const Band &b) {
         if(this!=&b) {
-            strcpy(this->ime,b.ime);
+            strcpy_s(this->ime, sizeof(this->ime), b.ime);
             delete []instrumenti;
             this->brojinstrumenti=0;
             this->instrumenti=nullptr;
@@ -107,6 +109,9 @@ public:
     }
     ~Band(){
         delete [] instrumenti;
+    }
+    void setIme(const char *ime) {
+        strcpy_s(this->ime, sizeof(this->ime), ime);
     }
     friend ostream &operator<<(ostream &o,const Band &b) {
         o<<b.ime<<endl;
@@ -140,8 +145,38 @@ public:
         else
             return false;
     }
+
+    // Added methods for accessing instruments
+    int getInstrumentCount() const { return brojinstrumenti; }
+    const MusicalInstrument& getInstrument(int idx) const { return instrumenti[idx]; }
 };
 
+
+void oldest_valuable_instrument(Band *bands, int n) {
+    int max_age = -1;
+    const MusicalInstrument *oldest = nullptr;
+    char band_name[100] = "";
+
+    for (int i = 0; i < n; ++i) {
+        Band &b = bands[i];
+        int count = b.getInstrumentCount();
+        for (int j = 0; j < count; ++j) {
+            const MusicalInstrument &ins = b.getInstrument(j);
+            if (ins.isValuable()) {
+                if (ins.getAge() > max_age) {
+                    max_age = ins.getAge();
+                    oldest = &ins;
+                    strcpy_s(band_name, sizeof(band_name), b.getName());
+                }
+            }
+        }
+    }
+    if (oldest) {
+        cout << "The oldest valuable instrument is:" << endl;
+        cout << *oldest << endl;
+        cout << "Band: " << band_name << endl;
+    }
+}
 
 int main() {
     int test;
