@@ -482,6 +482,28 @@ Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "strings--movie-year-input",
 EndProject
 Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "math--fibonacci-recursive", "programs\math--fibonacci-recursive\vs\math--fibonacci-recursive.vcxproj", "{F27B5DC4-CF73-474A-848E-0E814600C3B3}"
 EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "files--matrix-diagonal-sum-upper", "programs\files--matrix-diagonal-sum-upper\vs\files--matrix-diagonal-sum-upper.vcxproj", "{B829CFC1-4622-4C43-9805-9471B50DA4B0}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "oop--rent-a-car-fleet", "programs\oop--rent-a-car-fleet\vs\oop--rent-a-car-fleet.vcxproj", "{FBDEF148-8484-4088-B28A-4508F8EA066E}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "math--complex-equation-operators", "programs\math--complex-equation-operators\vs\math--complex-equation-operators.vcxproj", "{B0E894BB-DC05-4689-898D-D1E078ED1FEF}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "geometry--segment-intersection", "programs\geometry--segment-intersection\vs\geometry--segment-intersection.vcxproj", "{333F2CE0-ABB6-4249-8D38-C310ED8CFFAD}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "geometry--collinear-points", "programs\geometry--collinear-points\vs\geometry--collinear-points.vcxproj", "{91A50F37-30F3-4867-8074-C90258D95175}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "geometry--distance-2d-3d", "programs\geometry--distance-2d-3d\vs\geometry--distance-2d-3d.vcxproj", "{50F2C3CA-5137-4BE7-A58F-8E0B2F71C506}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "finance--shopping-cart-receipt", "programs\finance--shopping-cart-receipt\vs\finance--shopping-cart-receipt.vcxproj", "{6DAF0CC3-8D67-4201-9B57-A748977002A8}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "arrays--recursive-linear-search", "programs\arrays--recursive-linear-search\vs\arrays--recursive-linear-search.vcxproj", "{A6DFD5A9-5BFD-4413-BFB1-2B60DB354A5C}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "geometry--coplanar-points-volume", "programs\geometry--coplanar-points-volume\vs\geometry--coplanar-points-volume.vcxproj", "{710CB57F-19B8-44A5-BCDE-227B4E33B116}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "geometry--vector-dot-cross", "programs\geometry--vector-dot-cross\vs\geometry--vector-dot-cross.vcxproj", "{95CB2AAD-F72C-4AD3-93C6-6B295501CABF}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "files--letter-case-ratio", "programs\files--letter-case-ratio\vs\files--letter-case-ratio.vcxproj", "{73C76FAD-BEB9-4369-8F18-EE7E05E37833}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1449,4 +1471,48 @@ Global
 		{F27B5DC4-CF73-474A-848E-0E814600C3B3}.Release|x64.ActiveCfg = Release|x64
 		{F27B5DC4-CF73-474A-848E-0E814600C3B3}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
+		{B829CFC1-4622-4C43-9805-9471B50DA4B0}.Debug|x64.ActiveCfg = Debug|x64
+		{B829CFC1-4622-4C43-9805-9471B50DA4B0}.Debug|x64.Build.0 = Debug|x64
+		{B829CFC1-4622-4C43-9805-9471B50DA4B0}.Release|x64.ActiveCfg = Release|x64
+		{B829CFC1-4622-4C43-9805-9471B50DA4B0}.Release|x64.Build.0 = Release|x64
+		{FBDEF148-8484-4088-B28A-4508F8EA066E}.Debug|x64.ActiveCfg = Debug|x64
+		{FBDEF148-8484-4088-B28A-4508F8EA066E}.Debug|x64.Build.0 = Debug|x64
+		{FBDEF148-8484-4088-B28A-4508F8EA066E}.Release|x64.ActiveCfg = Release|x64
+		{FBDEF148-8484-4088-B28A-4508F8EA066E}.Release|x64.Build.0 = Release|x64
+		{B0E894BB-DC05-4689-898D-D1E078ED1FEF}.Debug|x64.ActiveCfg = Debug|x64
+		{B0E894BB-DC05-4689-898D-D1E078ED1FEF}.Debug|x64.Build.0 = Debug|x64
+		{B0E894BB-DC05-4689-898D-D1E078ED1FEF}.Release|x64.ActiveCfg = Release|x64
+		{B0E894BB-DC05-4689-898D-D1E078ED1FEF}.Release|x64.Build.0 = Release|x64
+		{333F2CE0-ABB6-4249-8D38-C310ED8CFFAD}.Debug|x64.ActiveCfg = Debug|x64
+		{333F2CE0-ABB6-4249-8D38-C310ED8CFFAD}.Debug|x64.Build.0 = Debug|x64
+		{333F2CE0-ABB6-4249-8D38-C310ED8CFFAD}.Release|x64.ActiveCfg = Release|x64
+		{333F2CE0-ABB6-4249-8D38-C310ED8CFFAD}.Release|x64.Build.0 = Release|x64
+		{91A50F37-30F3-4867-8074-C90258D95175}.Debug|x64.ActiveCfg = Debug|x64
+		{91A50F37-30F3-4867-8074-C90258D95175}.Debug|x64.Build.0 = Debug|x64
+		{91A50F37-30F3-4867-8074-C90258D95175}.Release|x64.ActiveCfg = Release|x64
+		{91A50F37-30F3-4867-8074-C90258D95175}.Release|x64.Build.0 = Release|x64
+		{50F2C3CA-5137-4BE7-A58F-8E0B2F71C506}.Debug|x64.ActiveCfg = Debug|x64
+		{50F2C3CA-5137-4BE7-A58F-8E0B2F71C506}.Debug|x64.Build.0 = Debug|x64
+		{50F2C3CA-5137-4BE7-A58F-8E0B2F71C506}.Release|x64.ActiveCfg = Release|x64
+		{50F2C3CA-5137-4BE7-A58F-8E0B2F71C506}.Release|x64.Build.0 = Release|x64
+		{6DAF0CC3-8D67-4201-9B57-A748977002A8}.Debug|x64.ActiveCfg = Debug|x64
+		{6DAF0CC3-8D67-4201-9B57-A748977002A8}.Debug|x64.Build.0 = Debug|x64
+		{6DAF0CC3-8D67-4201-9B57-A748977002A8}.Release|x64.ActiveCfg = Release|x64
+		{6DAF0CC3-8D67-4201-9B57-A748977002A8}.Release|x64.Build.0 = Release|x64
+		{A6DFD5A9-5BFD-4413-BFB1-2B60DB354A5C}.Debug|x64.ActiveCfg = Debug|x64
+		{A6DFD5A9-5BFD-4413-BFB1-2B60DB354A5C}.Debug|x64.Build.0 = Debug|x64
+		{A6DFD5A9-5BFD-4413-BFB1-2B60DB354A5C}.Release|x64.ActiveCfg = Release|x64
+		{A6DFD5A9-5BFD-4413-BFB1-2B60DB354A5C}.Release|x64.Build.0 = Release|x64
+		{710CB57F-19B8-44A5-BCDE-227B4E33B116}.Debug|x64.ActiveCfg = Debug|x64
+		{710CB57F-19B8-44A5-BCDE-227B4E33B116}.Debug|x64.Build.0 = Debug|x64
+		{710CB57F-19B8-44A5-BCDE-227B4E33B116}.Release|x64.ActiveCfg = Release|x64
+		{710CB57F-19B8-44A5-BCDE-227B4E33B116}.Release|x64.Build.0 = Release|x64
+		{95CB2AAD-F72C-4AD3-93C6-6B295501CABF}.Debug|x64.ActiveCfg = Debug|x64
+		{95CB2AAD-F72C-4AD3-93C6-6B295501CABF}.Debug|x64.Build.0 = Debug|x64
+		{95CB2AAD-F72C-4AD3-93C6-6B295501CABF}.Release|x64.ActiveCfg = Release|x64
+		{95CB2AAD-F72C-4AD3-93C6-6B295501CABF}.Release|x64.Build.0 = Release|x64
+		{73C76FAD-BEB9-4369-8F18-EE7E05E37833}.Debug|x64.ActiveCfg = Debug|x64
+		{73C76FAD-BEB9-4369-8F18-EE7E05E37833}.Debug|x64.Build.0 = Debug|x64
+		{73C76FAD-BEB9-4369-8F18-EE7E05E37833}.Release|x64.ActiveCfg = Release|x64
+		{73C76FAD-BEB9-4369-8F18-EE7E05E37833}.Release|x64.Build.0 = Release|x64
 EndGlobal
