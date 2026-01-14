@@ -236,8 +236,6 @@ Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "strings--palindrome-checker
 EndProject
 Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "strings--palindrome-checker-cpp", "programs\strings--palindrome-checker-cpp\vs\strings--palindrome-checker-cpp.vcxproj", "{1B59A725-5536-432B-9A00-CB26EF793D22}"
 EndProject
-Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "strings--palindrome-checker-geek", "programs\strings--palindrome-checker-geek\vs\strings--palindrome-checker-geek.vcxproj", "{D78B8687-3BC5-421B-B6B4-368031308402}"
-EndProject
 Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "strings--password-validation", "programs\strings--password-validation\vs\strings--password-validation.vcxproj", "{47FBCE7F-25B4-4D41-AB60-25900131E814}"
 EndProject
 Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "strings--sms-messages", "programs\strings--sms-messages\vs\strings--sms-messages.vcxproj", "{04963FFC-8235-4BCE-A0DB-2F6553249154}"
@@ -834,10 +832,6 @@ Global
 		{1B59A725-5536-432B-9A00-CB26EF793D22}.Debug|x64.Build.0 = Debug|x64
 		{1B59A725-5536-432B-9A00-CB26EF793D22}.Release|x64.ActiveCfg = Release|x64
 		{1B59A725-5536-432B-9A00-CB26EF793D22}.Release|x64.Build.0 = Release|x64
-		{D78B8687-3BC5-421B-B6B4-368031308402}.Debug|x64.ActiveCfg = Debug|x64
-		{D78B8687-3BC5-421B-B6B4-368031308402}.Debug|x64.Build.0 = Debug|x64
-		{D78B8687-3BC5-421B-B6B4-368031308402}.Release|x64.ActiveCfg = Release|x64
-		{D78B8687-3BC5-421B-B6B4-368031308402}.Release|x64.Build.0 = Release|x64
 		{47FBCE7F-25B4-4D41-AB60-25900131E814}.Debug|x64.ActiveCfg = Debug|x64
 		{47FBCE7F-25B4-4D41-AB60-25900131E814}.Debug|x64.Build.0 = Debug|x64
 		{47FBCE7F-25B4-4D41-AB60-25900131E814}.Release|x64.ActiveCfg = Release|x64

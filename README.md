@@ -116,7 +116,6 @@
 - strings--headline-format
 - strings--palindrome-checker-c
 - strings--palindrome-checker-cpp
-- strings--palindrome-checker-geek
 - strings--password-validation
 - strings--sms-messages
 - strings--sum-numbers-input
