@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tochka2", "Tochka2\Tochka2.vcxproj", "{56729A69-A42E-4D0D-97C0-D6EA157DE7A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56729A69-A42E-4D0D-97C0-D6EA157DE7A1}.Debug|x64.ActiveCfg = Debug|x64
+		{56729A69-A42E-4D0D-97C0-D6EA157DE7A1}.Debug|x64.Build.0 = Debug|x64
+		{56729A69-A42E-4D0D-97C0-D6EA157DE7A1}.Debug|x86.ActiveCfg = Debug|Win32
+		{56729A69-A42E-4D0D-97C0-D6EA157DE7A1}.Debug|x86.Build.0 = Debug|Win32
+		{56729A69-A42E-4D0D-97C0-D6EA157DE7A1}.Release|x64.ActiveCfg = Release|x64
+		{56729A69-A42E-4D0D-97C0-D6EA157DE7A1}.Release|x64.Build.0 = Release|x64
+		{56729A69-A42E-4D0D-97C0-D6EA157DE7A1}.Release|x86.ActiveCfg = Release|Win32
+		{56729A69-A42E-4D0D-97C0-D6EA157DE7A1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80EFA35D-A03C-4DC3-B63A-2BC802646C70}
+	EndGlobalSection
+EndGlobal
