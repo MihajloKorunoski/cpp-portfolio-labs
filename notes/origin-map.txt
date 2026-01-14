@@ -115,7 +115,6 @@ strings--email-processor: Email1/main.cpp
 strings--headline-format: Naslovna1.cpp
 strings--palindrome-checker-c: PalindromC/main.c
 strings--palindrome-checker-cpp: PalindromGeek2/main.cpp
-strings--palindrome-checker-geek: PalindromGeek/main.c
 strings--password-validation: Lozinki1/main.c
 strings--sms-messages: SMSporakiProblem1/main.cpp
 strings--sum-numbers-input: Test12345.cpp
