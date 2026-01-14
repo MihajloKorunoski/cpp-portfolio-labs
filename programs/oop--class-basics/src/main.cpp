@@ -92,8 +92,8 @@ ostream & operator <<(ostream &pechatiklas, Klas& klas){
 
 int main(){
     Uchenik *uchenik = new Uchenik[30];
-    uchenik[0]={"Mihaela Mihajlovska",1,5};
-    uchenik[1]={"Jana Janevska", 2 , 4.5};
+    uchenik[0]={"Megan Nelson",1,5};
+    uchenik[1]={"Lauren Carlson", 2 , 4.5};
     uchenik[2]={"Jovana Jovanova",3,4};
     uchenik[3]={"Teo Teov",4,3.5};
 
@@ -109,7 +109,7 @@ int main(){
     cout<<"-----------------------------------------------------------------------------"<<endl;
     cout<<setw(33)<<"Prosek na klasot e "<<setw(5)<<right<<mojklas.prosek(mojklas)<<endl;
 
-    Uchenik novuchenik("Anastasija Sashovska",5,5);
+    Uchenik novuchenik("Madison Thompson",5,5);
     mojklas=mojklas+novuchenik;
     cout<<endl<<endl;
     cout<<"\nMojot klas ima "<<mojklas.zemibrojnauchenici()<<" uchenici:"<<endl;
@@ -124,7 +124,6 @@ int main(){
     return 0;
 
 }
-
 
 
 
