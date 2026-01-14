@@ -85,12 +85,12 @@ void Ispit::prikazhiispit() {
 int main(){
     const int brojnastudenti=3;
     Student studenti[brojnastudenti];
-    studenti[0]={123456,"Aleksandar","Makedonski", 10};
-    studenti[1]={123457,"Aleksandar","Bugarski", 9};
-    studenti[2]={123458,"Filip","Makedonski", 6};
+    studenti[0]={123456,"Ethan","Miller", 10};
+    studenti[1]={123457,"Ethan","Parker", 9};
+    studenti[2]={123458,"Cole","Miller", 6};
 
     Ispit ovoj;
-    ovoj = {"Diskretna Matematika", "Nikola Gruevski", brojnastudenti,studenti};
+    ovoj = {"Diskretna Matematika", "Ryan Larson", brojnastudenti,studenti};
 
     ovoj.prikazhiispit();
 
@@ -98,7 +98,6 @@ int main(){
     system("PAUSE");
     return 0;
 }
-
 
 
 

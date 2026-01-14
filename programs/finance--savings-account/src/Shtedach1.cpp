@@ -56,7 +56,7 @@ int main(){
 	
 	const int brojnashtedachi=2;
 	Shtedach shtedachi[brojnashtedachi];
-	shtedachi[0].postavishtedach("Makedon Makedonski", 123456789012345, 10000);
+	shtedachi[0].postavishtedach("Jake Miller", 123456789012345, 10000);
 	shtedachi[1].postavishtedach("Tosho Malerot", 123456789123456, 100000);
 	
 	for(int i=0;i<brojnashtedachi;i++){
