@@ -72,10 +72,10 @@ int main(){
 	Prodavach prodavachi[brojnaprodavachi];
 	
 	double nedelnaprodazhba0[]={12.3,45.6,78.9,100.0};
-	prodavachi[0]={"Makedonka Makedonska", nedelnaprodazhba0};
+	prodavachi[0]={"Emily Miller", nedelnaprodazhba0};
 	
 	double nedelnaprodazhba1[]={34.5,45.6,90.9,230.0};
-	prodavachi[1]={"Makedon Makedonski", nedelnaprodazhba1};
+	prodavachi[1]={"Jake Miller", nedelnaprodazhba1};
 	
 	Prodavach jas;
 	jas.listanaprodavachi(prodavachi,brojnaprodavachi);
@@ -84,7 +84,6 @@ int main(){
 	system("PAUSE");
 	return 0;
 }
-
 
 
 

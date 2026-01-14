@@ -48,8 +48,8 @@ class Kniga {
 int main(){
 	const int brojknigi=2;
 	Kniga knigi[brojknigi];
-	knigi[0]={"C++ Osnovi na programiranje","Gjorgji Jovanchevski,Biljana Stojchevska, Nevena Ackovska", "GOCMAR",2007,"ISBN-10:9989-684-48-0",234.5};
-	knigi[1]={"C++ Objektno programiranje","Gjorgji Jovanchevski","GOCMAR",2017,"ISBN-13:987-9989-684-63-0",345.5};
+	knigi[0]={"C++ Osnovi na programiranje","Tyler Johnson,Hannah Anderson, Claire Peterson", "GOCMAR",2007,"ISBN-10:9989-684-48-0",234.5};
+	knigi[1]={"C++ Objektno programiranje","Tyler Johnson","GOCMAR",2017,"ISBN-13:987-9989-684-63-0",345.5};
 	cout<<"KNIGI"<<endl;
 	for(int i=0;i<brojknigi;i++){
 		cout<<endl<<"Kniga"<<i+1<<":";
@@ -59,7 +59,6 @@ int main(){
 	system("PAUSE");
 	return 0;
 }
-
 
 
 

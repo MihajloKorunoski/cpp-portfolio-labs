@@ -90,9 +90,9 @@ void Kontakt::prikazhikontakt(){
 		long long telefon;
 		const int brojkontakti=5;
 		Kontakt kontakti[brojkontakti];
-		kontakti[0]={"Aleksandar Makedonski", 389001, "a.makedonski@makedonija.mk","22.07.0356",'p'};
+		kontakti[0]={"Ethan Miller", 389001, "e.miller@makedonija.mk","22.07.0356",'p'};
 		kontakti[1]={"Car Samoil", 389002, "car.samoil@makedonija.mk","01.01.0958",'n'};
-		kontakti[2]={"Nikola Karev",389003, "nikola.karev@makedonija.mk","23.11.1877",'n'};
+		kontakti[2]={"Ryan Reed",389003, "ryan.reed@makedonija.mk","23.11.1877",'n'};
 		kontakti[3]={"Metodija Andonov",389004,"metodija.andonov@makedonija.mk","17.08.1902",'n'};
 		kontakti[4]={"Kiro Gligorov",389005,"kirogligorov@makedonija.mk","03.05.1917",'n'};
 		
@@ -108,7 +108,6 @@ void Kontakt::prikazhikontakt(){
 		return 0;
 		
 	}
-
 
 
 

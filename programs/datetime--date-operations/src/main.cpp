@@ -84,9 +84,9 @@ int main() {
     datumi[3]={17,8,1902};
     datumi[4]={3,5,1917};
 
-    lica[0]={"Aleksandar", "Makedonski", 1234567890123, datumi[0]};
+    lica[0]={"Ethan", "Miller", 1234567890123, datumi[0]};
     lica[1]={"Car", "Samoil", 1234567890124, datumi[1]};
-    lica[2]={"Nikola", "Karev", 1234567890125, datumi[2]};
+    lica[2]={"Ryan", "Reed", 1234567890125, datumi[2]};
     lica[3]={"Metodija", "Andonov",1234567890126,datumi[3]};
     lica[4]={"Kiro", "Gligorov", 1234567890127, datumi[4]};
 
@@ -99,7 +99,6 @@ int main() {
     system("PAUSE");
     return 0;
 }
-
 
 
 

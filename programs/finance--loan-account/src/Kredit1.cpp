@@ -87,14 +87,13 @@ void kredit(Transakciskasmetka& t, Bankarskasmetka& b){
 	t.prikazhitransakciskasmetka();
 }
 int main(){
-	Bankarskasmetka b("Makedonska banka", "Gjorgji Jovanchevski",1234567890123,1200000);
-	Transakciskasmetka t("NLB banka", "Gjorgji Jovanchevski",5678901234567,20000);
+	Bankarskasmetka b("Makedonska banka", "Tyler Johnson",1234567890123,1200000);
+	Transakciskasmetka t("NLB banka", "Tyler Johnson",5678901234567,20000);
 	kredit(t,b);
 	cout<<endl;
 	system("PAUSE");
 	return 0;
 }
-
 
 
 

@@ -97,14 +97,13 @@ Datum stazh(Vraboten nekoj,Datum denes){
 int main(){
     Datum denes(30,04,2017);
     Datum vrabotuvanje(20,04,1978);
-    Vraboten venko{"Venko Gruevski","Geodeziski Inzhener", vrabotuvanje};
+    Vraboten venko{"Logan Larson","Geodeziski Inzhener", vrabotuvanje};
     venko.prikazhivraboten();
     venko.prikazhistazh(venko,denes);
     cout<<endl;
     system("PAUSE");
     return 0;
 }
-
 
 
 
